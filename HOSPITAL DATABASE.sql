@@ -1,3 +1,5 @@
+CREATE DATABASE Hospital;
+SET foreign_key_checks = 1;
 CREATE TABLE patient_data (
     patient_id INT PRIMARY KEY AUTO_INCREMENT,
     first_name VARCHAR(50),
